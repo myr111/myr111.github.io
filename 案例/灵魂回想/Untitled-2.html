@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css" />
+<style>
+	.ys4r_ol{ width:321px; height:298px;}
+	.ys4r_text{background:url(img/sprite.jpg) 0 -530px; height:25px; padding-left:27px; margin-bottom:3px;}
+	.ys4r_text span{ width:55px; height:25px; text-align:center; float:right;color:#a6b2d8; line-height:25px; }
+	.ys4r_text a{ color:#a6b2d8;;line-height:25px; }
+	.ys4r_con{ width:319px; height:149px; border:1px solid #433b4f; position:relative;}
+	.ys4r_con p{ background:rgba(0,0,0,0.5); width:100%; height:36px; position:absolute; left:0; bottom:0;}
+	.ys4r_con i{ float:left; padding-left:5px; color:#fff; line-height:36px;}
+	.ys4r_con span{ float:right; color:#a997c3; line-height:36px; background:url(img/xiao.png) no-repeat left 10px; padding-left:20px;}
+	.ys4r_con { display:none;}
+	.ys4r_active .ys4r_con { display:block; }
+	.ys4r_active .ys4r_text { display:none; }
+</style>
+<script>
+	window.onload = function(){
+		var oYs4_rol = document.getElementById('ys4_rol')
+		var ali = oYs4_rol.getElementsByTagName('li');
+		for (var i=1;i<ali.length;i++){
+		ali[i].onmouseover = function(){
+			this.className='ys4r_active';
+			}
+		ali[i].onmouseout = function(){
+			this.className='';
+			}
+		}
+	}
+</script>
+</head>
+
+<body>
+	<ol class="ys4r_ol" id="ys4_rol">
+    	<li class="ys4r_active">
+        	<p class="ys4r_text">
+            	<a href="#">神谕者的成长礼</a>
+                <span>进行中</span>
+            </p>
+            <div class="ys4r_con">
+            	<a href="#"><img src="img/1.jpg" /></a>
+                <p class="clearfix">
+                    <i>女武神的秘宝</i>
+                    <span>共 7,294,712人关注 </span>
+                </p>
+            </div>
+        </li>
+        <li>
+        	<p class="ys4r_text">
+            	<a href="#">神谕者的成长礼</a>
+                <span>进行中</span>
+            </p>
+            <div class="ys4r_con">
+            	<a href="#"><img src="img/1.jpg" /></a>
+                <p class="clearfix">
+                    <i>女武神的秘宝</i>
+                    <span>共 7,294,712人关注 </span>
+                </p>
+            </div>
+        </li>
+        <li>
+        	<p class="ys4r_text">
+            	<a href="#">神谕者的成长礼</a>
+                <span>进行中</span>
+            </p>
+            <div class="ys4r_con">
+            	<a href="#"><img src="img/1.jpg" /></a>
+                <p class="clearfix">
+                    <i>女武神的秘宝</i>
+                    <span>共 7,294,712人关注 </span>
+                </p>
+            </div>
+        </li>
+        <li>
+        	<p class="ys4r_text">
+            	<a href="#">神谕者的成长礼</a>
+                <span>进行中</span>
+            </p>
+            <div class="ys4r_con">
+            	<a href="#"><img src="img/1.jpg" /></a>
+                <p class="clearfix">
+                    <i>女武神的秘宝</i>
+                    <span>共 7,294,712人关注 </span>
+                </p>
+            </div>
+        </li>
+        <li>
+        	<p class="ys4r_text">
+            	<a href="#">神谕者的成长礼</a>
+                <span>进行中</span>
+            </p>
+            <div class="ys4r_con">
+            	<a href="#"><img src="img/1.jpg" /></a>
+                <p class="clearfix">
+                    <i>女武神的秘宝</i>
+                    <span>共 7,294,712人关注 </span>
+                </p>
+            </div>
+        </li>
+    </ol>
+</body>
+</html>
